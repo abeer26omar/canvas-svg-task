@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+</head>
+
+<body>
+
+  <div class="inputs">
+    <input type="text" placeholder="Enter Course Name" class="name">
+    <input type="number" placeholder="Enter Students Number">
+    <input type="color">
+    <br><br>
+    <input type="text" placeholder="Enter Course Name" class="name">
+    <input type="number" placeholder="Enter Students Number">
+    <input type="color">
+    <br><br>
+    <input type="text" placeholder="Enter Course Name" class="name">
+    <input type="number" placeholder="Enter Students Number">
+    <input type="color">
+    <br><br>
+    <input type="text" placeholder="Enter Course Name" class="name">
+    <input type="number" placeholder="Enter Students Number">
+    <input type="color">
+
+    <br><br>
+    <input type="checkbox" id="pieChart"><label>pie chart</label>
+    <input type="checkbox" id="doughnutChart"><label>Doughnut Chart</label>
+    <br><br>
+    <input type="checkbox" id="lineChart"><label>line chart</label>
+    <br><br>
+    <label for="barchart">barchart</label>
+    <input type="checkbox" id='barchart'>
+    <br><br>
+    <button id="draw">Draw</button>
+    <p id="p1"></p>
+  </div>
+  <canvas id="pie"></canvas>
+  <canvas id="doughnut"></canvas>
+  <svg height='400' width='800' style="display: inline;">
+    <polyline points='40,20 40,60 40,100 40,140 40,180 40,220 80,220 120,220 160,220 200,220'
+              style='fill:none;stroke:black;stroke-width:1'/>
+    
+    <polyline style='fill:none;stroke:black;stroke-width:1' id='poly'></polyline>
+    
+    <circle cx='40' cy='20' r='3' fill='black'/>
+    <circle cx='40' cy='60' r='3' fill='black'/>
+    <circle cx='40' cy='100' r='3' fill='black'/>
+    <circle cx='40' cy='140' r='3' fill='black'/>
+    <circle cx='40' cy='180' r='3' fill='black'/>
+    <!-- <circle cx='40' cy='220' r='3' fill='black'/> -->
+
+    <circle cx='80' cy='220' r='3' fill='black'/>
+    <circle cx='120' cy='220' r='3' fill='black'/>
+    <circle cx='160' cy='220' r='3' fill='black'/>
+    <circle cx='200' cy='220' r='3' fill='black'/>
+
+    <text x='10' y='25'>100</text>
+    <text x='10' y='65'>80</text>
+    <text x='10' y='105'>60</text>
+    <text x='10' y='145'>40</text>
+    <text x='10' y='185'>20</text>
+
+    <text x='70' y='235' id='course1'></text>
+    <text x='110' y='235' id='course2'></text>
+    <text x='150' y='235' id='course3'></text>
+    <text x='190' y='235' id='course4'></text>
+</svg>
+<svg height='400' width='800' style="display: inline;">
+  <polyline points='40,20 40,60 40,100 40,140 40,180 40,220 80,220 120,220 160,220 200,220'
+            style='fill:none;stroke:black;stroke-width:1'/>
+  
+  <circle cx='40' cy='20' r='3' fill='black'/>
+  <circle cx='40' cy='60' r='3' fill='black'/>
+  <circle cx='40' cy='100' r='3' fill='black'/>
+  <circle cx='40' cy='140' r='3' fill='black'/>
+  <circle cx='40' cy='180' r='3' fill='black'/>
+  <!-- <circle cx='40' cy='220' r='3' fill='black'/> -->
+
+  <!-- <circle cx='80' cy='220' r='3' fill='black'/>
+  <circle cx='120' cy='220' r='3' fill='black'/>
+  <circle cx='160' cy='220' r='3' fill='black'/>
+  <circle cx='200' cy='220' r='3' fill='black'/> -->
+
+  <text x='10' y='25'>100</text>
+  <text x='10' y='65'>80</text>
+  <text x='10' y='105'>60</text>
+  <text x='10' y='145'>40</text>
+  <text x='10' y='185'>20</text>
+
+  <text x='70' y='235' id='course1bar'></text>
+  <text x='110' y='235' id='course2bar'></text>
+  <text x='150' y='235' id='course3bar'></text>
+  <text x='190' y='235' id='course4bar'></text>
+
+  <rect x='70' width='20'  class='rect'></rect>
+  <rect x='110' width='20' class='rect'></rect>
+  <rect x='150' width='20' class='rect'></rect>
+  <rect x='190' width='20' class='rect'></rect>
+</svg>
+
+</body>
+
+<script src="chartssss (1).js"></script>
+
+</html>
